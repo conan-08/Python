@@ -1,27 +1,7 @@
-import pygame    
-from random import randint
+print('Hellllo World')
+print('Hello World')
 
-def computer():
-    computer = randint(0,2)
-    # computer = {
-    #     if computer == 0:
-    #         computer = "đấm"
-    #     if computer == 1:
-    #         computer = "lá"
-    #     else:
-    #         computer = "kéo"
-    # }
-    print(computer)
+a = int(input("Nhập số a: "))
 
-def player():
-    player = int(input("Nhập: "))
-
-def ss():
-    if computer.computer() == player.player():
-        print("Hi")
-    
-
-
-computer()
-player()
-ss()
+for i in range(a):
+    print(i)
